@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	// background-color: #E7F6E3;
-	height: 10000px;
+	// height: 10000px;
 }
 
 * {
@@ -20,4 +20,12 @@ body {
 
 .clip-top-section {
 	clip-path: polygon(0 0, 100% 0%, 100% 96%, 0% 100%);
+}
+
+.clip-integration-section {
+	clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.clip-footer {
+	clip-path: polygon(0 0, 100% 32%, 100% 100%, 0% 100%);
 }
