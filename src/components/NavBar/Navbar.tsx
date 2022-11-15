@@ -9,7 +9,7 @@ const Navbar:React.FC = () => {
 
 	return (
 		<div className="container">
-			<div className="flex items-center justify-between">
+			<div className="flex items-center justify-between px-4 lg:px-0">
 				<Button label={t("getStarted")} className="hidden lg:block" />
 				<NavLinks />
 				<LogoIcon />
