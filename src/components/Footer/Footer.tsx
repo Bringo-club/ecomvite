@@ -11,12 +11,12 @@ const Footer: React.FC = () => {
 				<h2 className="text-white text-4xl text-center font-bold">
 					{t("joinUs")}
 				</h2>
-				<div className="flex justify-center mt-5 gap-5">
+				<div className="flex flex-wrap flex-col-reverse lg:flex-row px-4 lg:flex-nowrap justify-center mt-5 gap-5">
 					<Button label={t("footer.action")} icon={<RunIcon />} />
 					<input
 						type="text"
 						placeholder={t("footer.emailPlaceHolder")}
-						className="w-4/12 text-xl p-2 rounded-lg text-right text-light-green focus:outline-none placeholder-light-green"
+						className="text-center w-full lg:w-4/12 text-xl p-2 rounded-lg lg:text-right text-light-green focus:outline-none placeholder-light-green"
 					/>
 				</div>
 			</div>

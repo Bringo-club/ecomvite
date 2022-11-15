@@ -19,11 +19,11 @@ const NavLinks: React.FC = () => {
 				<NavLinksItems />
 			</div>
 
-			{ !openBurger && <BurgerIcon className="lg:hidden h-14 w-14" onClick={handleBurger} />}
-			{ openBurger && <CloseIcon className="lg:hidden h-14 w-14" onClick={handleBurger} />}
+			{ !openBurger && <BurgerIcon className="lg:hidden h-14 w-14 cursor-pointer fill-light-green" onClick={handleBurger} />}
+			{ openBurger && <CloseIcon className="lg:hidden h-14 w-14 cursor-pointer" onClick={handleBurger} />}
 
 			{openBurger && (
-				<div className="flex flex-col absolute bg-black w-full top-16">
+				<div className="flex flex-col absolute bg-white w-full top-16">
 					<NavLinksItems />
 				</div>
 			)}

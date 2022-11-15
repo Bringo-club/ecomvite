@@ -10,7 +10,7 @@ const Navbar:React.FC = () => {
 	return (
 		<div className="container">
 			<div className="flex items-center justify-between">
-				<Button label={t("getStarted")} />
+				<Button label={t("getStarted")} className="hidden lg:block" />
 				<NavLinks />
 				<LogoIcon />
 			</div>
